@@ -36,7 +36,7 @@ class AggregatedLoan(Loan):
         self.aggregate = float(self.amount / self.count)
 
     def display_aggregate(self):
-        return "(" + self.network + ", " + self.month + ", " + self.product + "): aggregate=" + str(
+        return "(" + self.network + ", " + self.product + ", " + self.month  + "): aggregate=" + str(
             self.aggregate) + ", count =" + str(self.count)
 
 
