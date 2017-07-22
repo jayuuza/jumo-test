@@ -1,0 +1,8 @@
+(Network 1, Mar, Loan Product 1): aggregate=1000.0, count =1
+(Network 2, Mar, Loan Product 1): aggregate=1122.0, count =1
+(Network 3, Mar, Loan Product 2): aggregate=2084.0, count =1
+(Network 1, Mar, Loan Product 2): aggregate=3098.0, count =1
+(Network 2, Apr, Loan Product 1): aggregate=5671.0, count =1
+(Network 3, Apr, Loan Product 3): aggregate=1928.0, count =1
+(Network 2, Apr, Loan Product 3): aggregate=1747.0, count =1
+(Network 1, Apr, Loan Product 2): aggregate=1801.0, count =1
