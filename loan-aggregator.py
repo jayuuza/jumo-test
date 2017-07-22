@@ -21,7 +21,7 @@ class Loan:
             self.amount)
 
 
-class aggregatedLoan(Loan):
+class AggregatedLoan(Loan):
     """A extension of a loan object containing aggregated information. i.e. how many loans are contained in the aggregate as well as the aggregate itself."""
 
     def __init__(self, loan):
@@ -64,10 +64,10 @@ def aggregate_loans(loans):
             if found:
                 check.add_loan(loan.amount)
             else:
-                new_aggregate = aggregatedLoan(loan)
+                new_aggregate = AggregatedLoan(loan)
                 aggregate_loans.append(new_aggregate)
         else:
-            new_aggregate = aggregatedLoan(loan)
+            new_aggregate = AggregatedLoan(loan)
             aggregate_loans.append(new_aggregate)
 
     return aggregate_loans
