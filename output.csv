@@ -1,8 +1,8 @@
-(Network 1, Mar, Loan Product 1): aggregate=1000.0, count =1
-(Network 2, Mar, Loan Product 1): aggregate=1122.0, count =1
-(Network 3, Mar, Loan Product 2): aggregate=2084.0, count =1
-(Network 1, Mar, Loan Product 2): aggregate=3098.0, count =1
-(Network 2, Apr, Loan Product 1): aggregate=5671.0, count =1
-(Network 3, Apr, Loan Product 3): aggregate=1928.0, count =1
-(Network 2, Apr, Loan Product 3): aggregate=1747.0, count =1
-(Network 1, Apr, Loan Product 2): aggregate=1801.0, count =1
+(Network 1, Loan Product 1, Mar): average=1000.0, count =1, amount =1000.0
+(Network 2, Loan Product 1, Mar): average=1122.0, count =1, amount =1122.0
+(Network 3, Loan Product 2, Mar): average=2084.0, count =1, amount =2084.0
+(Network 1, Loan Product 2, Mar): average=3098.0, count =1, amount =3098.0
+(Network 2, Loan Product 1, Apr): average=5671.0, count =1, amount =5671.0
+(Network 3, Loan Product 3, Apr): average=1928.0, count =1, amount =1928.0
+(Network 2, Loan Product 3, Apr): average=1747.0, count =1, amount =1747.0
+(Network 1, Loan Product 2, Apr): average=1801.0, count =1, amount =1801.0

@@ -36,8 +36,8 @@ class AggregatedLoan(Loan):
         self.aggregate = float(self.amount / self.count)
 
     def display_aggregate(self):
-        return "(" + self.network + ", " + self.product + ", " + self.month  + "): aggregate=" + str(
-            self.aggregate) + ", count =" + str(self.count)
+        return "(" + self.network + ", " + self.product + ", " + self.month  + "): average=" + str(
+            self.aggregate) + ", count =" + str(self.count)+ ", amount =" + str(self.amount)
 
 
 # def get_distinct_values_for_key(key, my_dataset):
